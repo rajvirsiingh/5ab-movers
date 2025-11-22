@@ -1,33 +1,16 @@
-# 📦 5AB Moving Website
+# React + Vite
 
-A modern, responsive website created for **5AB Moving Services**, a Brisbane-based moving and relocation company.  
-This project focuses on a clean UI, simple navigation, responsive layout, and a strong marketing-focused design to help customers quickly learn about the services and request a quote.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🌐 **Fully Responsive** — Works smoothly on mobile, tablet, and desktop  
-- 🎨 **Modern Design** — Clean layout, spacing, typography, and icons  
-- 🧭 **Navigation Bar with Hover Animations**  
-- 🏡 **Hero Section** — Strong headline + Call-to-Action  
-- 📦 **About Section** — Company values & service highlights  
-- 🚚 **Services Section** — Multiple service cards  
-- 📝 **Quote Request Form** (HTML structure ready)  
-- 📞 **Contact Information Cards**  
-- ✨ **Smooth, simple animations**
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Technologies Used
+## Expanding the ESLint configuration
 
-- **HTML5**  
-- **CSS3** (Flexbox, Grid, Animations)  
-- **Google Fonts (Poppins)**  
-- **FontAwesome / Emoji Icons**  
-- **Responsive Design Techniques**
-
----
-
-## 📁 Project Structure
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
